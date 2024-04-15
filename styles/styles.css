@@ -1,35 +1,142 @@
 @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("../fonts/ptsans-400.woff2") format("woff2");
-    font-display: swap;
-  }
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
 
-  @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/ptsans-700.woff2") format("woff2");
-    font-display: swap;
-  }
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
 
-  .visually-hidden {
-    display: none;
-  }
-  body {
-    font-family: "PT Sans", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: #242424;
-    background-color: #ffffff;
-  }
+.visually-hidden {
+  display: none;
+}
 
-  .header {
-    background-color: #ffffff;
-  }
+body {
+  margin: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #ffffff;
+}
 
-.welcome{
+.header {
+  background-color: #ffffff;
+}
+
+.logo-link {}
+
+.logo-image {}
+
+.navigation {}
+
+.main-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.meni-item {}
+
+.menu-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.welcome {
   background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.logo-link {}
+
+.logo-image {}
+
+.navigation {}
+
+.main-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.menu-item {}
+
+.menu-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.user-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.welcome {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.reason-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.comfort-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.news-letter {
+  background-image: url("../images/subscribe.jpg");
   background-repeat: no-repeat;
 }
